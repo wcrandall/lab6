@@ -1,0 +1,37 @@
+f(x) = a * x
+fit f(x) 'additionPerformance4.txt' via a
+plot f(x) with linespoints, 'additionPerformance4.txt' with linespoints 
+f(x) = a * x ** 2 
+fit f(x) 'additionPerformance4.txt' via a
+plot f(x) with linespoints, 'additionPerformance4.txt' with linespoints 
+f(x) = a * x 
+fit f(x) 'performanceMultiplication4.txt' via a 
+plot f(x) with linespoints, 'performanceMultiplication4.txt' with linespoints
+plot 'FIBODYNAMICLOOPexp2.txt' with linespoints
+plot 'fiboLoopXTests2.txt' with linespoints 
+plot 'ForLab6FromLab5/FIBODYNAMICLOOPexp2.txt' with linespoints, 'FiboLoopIOUSLoopN.txt' with linespoints 
+plot 'ForLab6FromLab5/loopGraphedByX.txt' with linespoints, 'FiboLoopIOUS/fiboLoopx.txt' with linespoints
+plot 'ForLab6FromLab5/loopGraphedByx.txt' with linespoints
+plot 'FiboLoopIOUS/fiboLoopX.txt' with linespoints 
+plot 'FiboQuickestIOUS/FiboMatrixN.txt' with linespoints, 'ForLab6From5/FIBOQUICKESTexp2.txt' with linespoints
+plot 'ForLab6FromLab5/FIBOQUICKESTexp2.txt' with linespoints
+plot 'FiboQuickestIOUS/FiboMatrixN.txt' with linespoints
+plot 'ForLab6FromLab5/quickesstGraphedByX.txt' with linespoints, 'FiboQuickestIOUS/FiboMatrixX.txt' with linespoints 
+plot 'ForLab6FromLab5/quickestGraphedByX.txt' with linespoints
+plot 'FiboQuickestIOUS/FiboMatrixX.txt' with linespoints
+plot 'FiboFormulaIOUS/fiboFormulaIOUSN.txt' with linespoints, 'FiboFormulaReg/FiboFormulaRegN.txt' with linespoints 
+plot 'FiboFormulaIOUS/fiboFormulaIOUSX.txt' with linespoints, 'FiboFormulaReg/fiboFormulaRegX.txt' with linespoints 
+plot 'FiboFormulaIOUS/fiboFormulaIOUSX.txt' with linespoints 
+plot FiboFormulaReg/fiboFormulaRegX.txt with linespoints 
+f(x) = a * x**2
+fit f(x) 'doublingInputXBitSizeEachTime.txt' via a
+plot 'doublingInputXBitSizeEachTime.txt' with linespoints, f(x) with linespoints 
+f(x) = a * x ** 1.3
+fit f(x) 'doublingBitsEachTimeOfX.txt' via a
+plot 'doublingBitsEachTimeOfX.txt' with linespoints, F(x) with linespoints
+f(x) = a * x **2
+fit f(x) 'doublingInputBitsEachTime.txt' via a
+plot 'doublingInputBitsEachTime.txt' with linespoints, f(x) with linespoints 
+plot 'FiboLooIOUS/doublingInputXBitSizeEachTime.txt' with linespoints, 'FiboQuickestIOUS/doublingInputBitsEachTime.txt' with linespoints, FiboFormula/FiboFormulaIOUS/doublingBitsEachTimeOfX.txt' with linespoints 
+
+
